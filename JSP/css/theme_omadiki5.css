@@ -1,0 +1,43 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  /* Zero margin top on header height */
+  margin-top: 0px;
+
+  /* Zero margin bottom on footer height */
+  margin-bottom: 0px;
+}
+
+
+.navbar navbar-default navbar-static-top{
+  color:blue;
+}
+
+
+.menu-box {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none; /* Remove underline for links */
+  color: rgb(85, 130, 197);
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 20px; /* Adjust the padding to center the caret vertically */
+}
+
+
+/* Add this CSS to vertically center the menu titles */
+.navbar-nav > li > a {
+  line-height: 45px; /* Adjust the line-height based on your logo height */
+  padding-top: 10px; /* Adjust the padding to center the text vertically */
+}
+
+/* Add this CSS to vertically center the dropdown menus */
+.dropdown-menu > li > a {
+  line-height: 1.5; /* Adjust the line-height for dropdown menu items */
+}
